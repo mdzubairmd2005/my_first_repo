@@ -1,3 +1,3 @@
 import boto3
 
-Hello from microzarf!
+Hello from amazon!
