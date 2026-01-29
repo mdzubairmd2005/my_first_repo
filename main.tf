@@ -2,7 +2,7 @@ provider "aws" {
   region     = "us-east-1"
 }
 
-resource "aws_instance" "example" {
+resource "aws_instance" "devops" {
   count         = 5
   ami           = "ami-0bb7267a511c0a8e8"
   instance_type = "t3.micro"
