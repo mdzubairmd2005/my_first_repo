@@ -4,7 +4,7 @@ provider "aws" {
 
 resource "aws_instance" "devops" {
   count         = 5
-  ami           = "ami-0bb7267a511c0a8e8"
+  ami           = "ami-0532be01f26a3de55"
   instance_type = "t3.micro"
 
   tags = {
